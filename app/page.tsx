@@ -480,17 +480,33 @@ export default function Portfolio() {
               <div className="text-sm text-muted-foreground">
                 © 2024 Rohith Kota. Building the future with data.
               </div>
-              
+
               <div className="flex items-center space-x-4">
-                <Button variant="ghost" size="sm">
-                  <Github className="h-4 w-4" />
-                </Button>
-                <Button variant="ghost" size="sm">
-                  <Linkedin className="h-4 w-4" />
-                </Button>
-                <Button variant="ghost" size="sm">
-                  <Mail className="h-4 w-4" />
-                </Button>
+                <a
+                  href="https://github.com/kotarohit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="ghost" size="sm">
+                    <Github className="h-4 w-4" />
+                  </Button>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/rohith-kota-2b1161366"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="ghost" size="sm">
+                    <Linkedin className="h-4 w-4" />
+                  </Button>
+                </a>
+
+                <a href="#contact">
+                  <Button variant="ghost" size="sm">
+                    <Mail className="h-4 w-4" />
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
