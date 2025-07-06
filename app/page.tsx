@@ -458,20 +458,31 @@ export default function Portfolio() {
             <p className="text-xl text-muted-foreground mb-8">
               Always interested in discussing data engineering challenges and AI innovations
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                <Mail className="h-4 w-4 mr-2" />
-                kotarohit14@gmail.com
-              </Button>
-              
-              <Button variant="outline" size="lg">
-                <Phone className="h-4 w-4 mr-2" />
-                +1 (857)-335-3738
-              </Button>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=kotarohit14@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
+                >
+                  <Mail className="h-4 w-4 mr-2" />
+                  kotarohit14@gmail.com
+                </Button>
+              </a>
+
+              <a href="tel:+18573353738">
+                <Button variant="outline" size="lg">
+                  <Phone className="h-4 w-4 mr-2" />
+                  +1 (857)-335-3738
+                </Button>
+              </a>
             </div>
           </div>
-        </section>
+        </section>  
 
         {/* Footer */}
         <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t">
@@ -502,7 +513,7 @@ export default function Portfolio() {
                   </Button>
                 </a>
 
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kotarohit14@gmail.com" target="_blank">
+                <a href="mailto:kotarohit14@gmail.com" target="_blank">
                   <Button variant="ghost" size="sm">
                     <Mail className="h-4 w-4" />
                   </Button>
