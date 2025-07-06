@@ -502,7 +502,7 @@ export default function Portfolio() {
                   </Button>
                 </a>
 
-                <a href="#contact">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kotarohit14@gmail.com" target="_blank">
                   <Button variant="ghost" size="sm">
                     <Mail className="h-4 w-4" />
                   </Button>
