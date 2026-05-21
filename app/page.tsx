@@ -42,8 +42,17 @@ export default function Portfolio() {
 
   const workExperience = [
     {
+      company: "Paramount",
+      period: "Mar 2026 – Present",
+      role: "Senior Data Engineer",
+      achievements: [
+        "Owned multi-pillar Content Data Platform roadmap (reliability, feature standardization, DX & real-time) powering Paramount+'s ML personalization engine",
+        "Established single-pane-of-glass observability across GCP + Databricks + Snowflake + DBT → full pipeline health visibility across the content personalization stack"
+      ]
+    },
+    {
       company: "Meta",
-      period: "Aug 2024 – Present",
+      period: "Aug 2024 – Mar 2026",
       role: "Data & AI Engineer",
       achievements: [
         "Ads metrics pipeline → $300M unlocked",
