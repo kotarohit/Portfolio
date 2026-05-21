@@ -46,8 +46,8 @@ export default function Portfolio() {
       period: "Mar 2026 – Present",
       role: "Senior Data Engineer",
       achievements: [
-        "Owned multi-pillar Content Data Platform roadmap (reliability, feature standardization, DX & real-time) powering Paramount+'s ML personalization engine",
-        "Established single-pane-of-glass observability across GCP + Databricks + Snowflake + DBT → full pipeline health visibility across the content personalization stack"
+        "Multi-pillar Content Data Platform roadmap → reliability, DX & real-time",
+        "Single-pane observability (GCP + Databricks + Snowflake + DBT) → full stack pipeline health"
       ]
     },
     {
