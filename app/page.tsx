@@ -211,7 +211,7 @@ export default function Portfolio() {
                 <div className="relative w-36 sm:w-64 md:w-80 mx-auto">
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur-2xl opacity-20"></div>
                   <img
-                    src="/WhatsApp Image 2025-07-03 at 02.09.59.jpeg"
+                    src="/og-image.jpeg"
                     alt="Rohith Kota"
                     className="relative w-full h-auto rounded-2xl shadow-2xl"
                   />
